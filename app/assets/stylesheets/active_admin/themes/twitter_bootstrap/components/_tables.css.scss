@@ -1,0 +1,39 @@
+// --------- Index Tables 
+
+table.index_table {
+  th { 
+    &.sortable a {
+      background: url(active_admin_image_path('orderable.png')) no-repeat 0 4px; padding-left: 13px;
+    }
+
+    &.sorted-asc a { background-position: 0 -27px; }
+    &.sorted-desc a {  background-position: 0 -56px;}
+  }
+}
+
+// --------- Tables inside Panels
+
+// .panel_contents table {
+//   margin-top: 5px;
+//   th { 
+//     padding-top: 10px;
+//     background: none;
+//     color: $primary-color;
+//     text-transform: uppercase;
+//     border-bottom: 1px solid #ccc;
+//   }
+//   tr.odd td { background: darken($table-stripe-color, 3%); }
+//   tr.even td { background: $table-stripe-color; }
+// }
+
+// -------------------------------------- resource attributes table 
+.attributes_table { 
+  overflow: hidden; 
+
+  .empty {
+    color: #bbb;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+  }
+}
